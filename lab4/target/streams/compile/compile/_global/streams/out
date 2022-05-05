@@ -1,0 +1,8 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/Admin/Desktop/Programowanie/ScalaUniversity/lab4/src/main/scala/Main.scala:44:53: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: A[0m
+[0m[[0m[31merror[0m] [0m[0m          case Nil => if (acc != Nil) acc else List(None)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[0minfo[0m] [0m[0mNone.type <: A?[0m
+[0m[[0m[0minfo[0m] [0m[0mfalse[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
