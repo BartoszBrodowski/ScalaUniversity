@@ -1,0 +1,918 @@
+2022.05.03 19:37:47 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\Programowanie\ScalaZadania\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.03 19:37:47 INFO  logging to file C:\Users\Admin\Desktop\Programowanie\ScalaZadania\.metals\metals.log
+2022.05.03 19:37:47 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaZadania' for client Visual Studio Code 1.66.2.
+2022.05.03 19:37:49 INFO  time: initialize in 1.61s
+2022.05.03 19:37:49 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.03 19:37:49 WARN  Build server is not auto-connectable.
+2022.05.03 19:37:49 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaZadania'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.03 19:37:50 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.03 19:37:52 INFO  no build target found for C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.03 19:37:53 INFO  time: code lens generation in 2.83s
+2022.05.03 20:08:53 WARN  no build target for: C:\Users\Admin\Downloads\zad1.scala
+2022.05.03 20:19:28 WARN  no build target for: C:\Users\Admin\Downloads\zad2.scala
+2022.05.03 20:19:38 WARN  no build target for: C:\Users\Admin\Downloads\zad3.scala
+2022.05.03 20:19:42 WARN  no build target for: C:\Users\Admin\Downloads\zad4.scala
+2022.05.03 20:19:44 WARN  no build target for: C:\Users\Admin\Downloads\zad5.scala
+2022.05.03 21:44:26 INFO  shutting down Metals
+2022.05.03 22:09:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\Programowanie\ScalaZadania\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.03 22:09:21 INFO  logging to file C:\Users\Admin\Desktop\Programowanie\ScalaZadania\.metals\metals.log
+2022.05.03 22:09:21 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaZadania' for client Visual Studio Code 1.66.2.
+2022.05.03 22:09:22 INFO  time: initialize in 1.73s
+2022.05.03 22:09:22 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.03 22:09:22 WARN  Build server is not auto-connectable.
+2022.05.03 22:09:22 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaZadania'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.03 22:09:24 WARN  no build target for: C:\Users\Admin\Downloads\zad2.scala
+2022.05.03 22:09:26 INFO  no build target found for C:\Users\Admin\Downloads\zad2.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.03 22:09:27 INFO  time: code lens generation in 3.17s
+2022.05.03 22:09:27 INFO  time: code lens generation in 1.84s
+2022.05.03 22:09:27 INFO  time: code lens generation in 3.16s
+2022.05.03 22:32:09 INFO  shutting down Metals
+2022.05.04 19:07:50 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\Programowanie\ScalaZadania\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.04 19:07:51 INFO  logging to file C:\Users\Admin\Desktop\Programowanie\ScalaZadania\.metals\metals.log
+2022.05.04 19:07:51 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaZadania' for client Visual Studio Code 1.66.2.
+2022.05.04 19:07:53 INFO  time: initialize in 1.62s
+2022.05.04 19:07:53 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.04 19:07:53 WARN  Build server is not auto-connectable.
+2022.05.04 19:07:53 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaZadania'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.04 19:07:54 WARN  no build target for: C:\Users\Admin\Downloads\zad2.scala
+2022.05.04 19:07:57 INFO  no build target found for C:\Users\Admin\Downloads\zad2.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.04 19:07:58 INFO  time: code lens generation in 3.91s
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.4.3/scalafmt-core_2.13-3.4.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.4.3/scalafmt-core_2.13-3.4.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.4.3/scalafmt-sysops_2.13-3.4.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.4.35/scalameta_2.13-4.4.35.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.4.3/scalafmt-config_2.13-3.4.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.4.3/scalafmt-sysops_2.13-3.4.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.4.3/scalafmt-config_2.13-3.4.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.4.35/scalameta_2.13-4.4.35.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.4.35/parsers_2.13-4.4.35.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.4.35/parsers_2.13-4.4.35.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.4.35/trees_2.13-4.4.35.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.4.35/trees_2.13-4.4.35.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.4.35/common_2.13-4.4.35.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.4.35/common_2.13-4.4.35.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.4.35/parsers_2.13-4.4.35.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.4.35/trees_2.13-4.4.35.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.4.35/scalameta_2.13-4.4.35.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.4.3/scalafmt-core_2.13-3.4.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.4.35/common_2.13-4.4.35.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.4.3/scalafmt-config_2.13-3.4.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.4.3/scalafmt-config_2.13-3.4.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.4.3/scalafmt-sysops_2.13-3.4.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.4.3/scalafmt-sysops_2.13-3.4.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.4.3/scalafmt-core_2.13-3.4.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.4.35/parsers_2.13-4.4.35.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.4.35/scalameta_2.13-4.4.35.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.4.35/common_2.13-4.4.35.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.4.35/trees_2.13-4.4.35.jar
+2022.05.04 19:08:17 WARN  no build target for: C:\Users\Admin\Downloads\zad2.scala
+2022.05.04 19:08:18 WARN  no build target for: C:\Users\Admin\Downloads\zad2.scala
+2022.05.04 19:08:25 INFO  shutting down Metals
+2022.05.04 19:11:14 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\Programowanie\ScalaZadania\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.04 19:11:15 INFO  logging to file C:\Users\Admin\Desktop\Programowanie\ScalaZadania\.metals\metals.log
+2022.05.04 19:11:15 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaZadania' for client Visual Studio Code 1.66.2.
+2022.05.04 19:11:16 INFO  time: initialize in 1.56s
+2022.05.04 19:11:16 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.04 19:11:16 WARN  Build server is not auto-connectable.
+2022.05.04 19:11:16 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaZadania'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.04 19:11:17 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:11:19 INFO  no build target found for C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.04 19:11:20 INFO  time: code lens generation in 2.79s
+2022.05.04 19:11:27 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+val helloStr = "Hello, World!"
+^
+2022.05.04 19:11:27 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:11:33 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\build.sbt
+2022.05.04 19:11:40 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\build.sbt
+2022.05.04 19:11:41 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\build.sbt
+2022.05.04 19:11:49 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\build.sbt
+2022.05.04 19:11:52 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+val helloStr = "Hello, World!"
+^
+2022.05.04 19:11:52 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:15:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:15:25 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:3: error: [dialect scala213] expected start of definition
+val helloStr = "Hello, World!"
+^
+2022.05.04 19:15:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:15:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:15:43 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:3: error: [dialect scala213] expected start of definition
+val helloStr = "Hello, World!"
+^
+2022.05.04 19:15:44 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:16:14 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:16:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:16:55 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:16:55 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:17:24 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:17:24 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:17:45 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:17:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:18:24 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:18:24 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:18:39 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:18:39 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:18:58 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:18:58 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:19:13 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:19:13 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:19:44 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:19:44 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:20:16 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:20:16 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:20:58 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:20:58 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:21:25 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:21:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:22:58 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:22:59 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:23:48 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:23:48 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:24:48 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:24:48 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:24:54 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:24:54 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:25:45 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:25:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:26:02 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:26:02 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:26:06 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:6: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:26:06 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:26:26 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:26:28 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:26:28 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+maj 04, 2022 7:34:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2202
+2022.05.04 19:36:32 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:36:32 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:36:52 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:36:52 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:36:59 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 19:36:59 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:38:09 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:14: error: [dialect scala213] illegal start of definition def
+def zad02(): Unit = {
+^
+2022.05.04 19:38:09 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:38:27 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:14: error: [dialect scala213] illegal start of definition def
+def zad02(): Unit = {
+^
+2022.05.04 19:38:27 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:38:32 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:14: error: [dialect scala213] illegal start of definition def
+def zad02(): Unit = {
+^
+2022.05.04 19:38:32 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:38:42 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:14: error: [dialect scala213] illegal start of definition def
+def zad02(): Unit = {
+^
+2022.05.04 19:38:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:38:46 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:14: error: [dialect scala213] illegal start of definition def
+def zad02(): Unit = {
+^
+2022.05.04 19:38:46 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:39:02 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zad02(): Unit = {
+^
+2022.05.04 19:39:02 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:39:19 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zad02(): Unit = {
+^
+2022.05.04 19:39:19 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:40:11 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zad02(): Unit = {
+^
+2022.05.04 19:40:11 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:40:45 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zad02(): Unit = {
+^
+2022.05.04 19:40:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:42:15 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zad02(): Unit = {
+^
+2022.05.04 19:42:15 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:42:40 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:27: error: [dialect scala213] expected start of definition
+println(Math.floor(5/2).toInt)
+^
+2022.05.04 19:42:40 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:43:00 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:43:00 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:43:08 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:43:08 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:43:20 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:43:20 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:44:08 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:44:08 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:44:54 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:44:55 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:45:17 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:45:17 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:45:35 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:45:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:46:26 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:46:26 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:46:35 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:46:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:47:10 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:47:10 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:47:10 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:47:16 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:47:16 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:47:38 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:47:38 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:48:45 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:48:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:49:14 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:49:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:49:17 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:49:17 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:49:26 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:49:26 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:49:34 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:49:34 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:54:51 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:54:51 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:55:18 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:55:18 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:57:11 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:57:11 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+maj 04, 2022 7:57:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 29 is not a valid line number, allowed [0..28]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.05.04 19:57:25 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:57:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:57:35 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:57:36 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:57:45 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:57:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:57:50 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:57:50 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:57:58 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:57:58 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:58:20 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:58:21 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:58:26 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:58:26 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:58:33 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:58:33 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:58:42 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:58:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:58:47 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:58:47 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:58:59 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:58:59 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:59:04 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:59:04 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:59:25 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:59:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 19:59:49 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 19:59:49 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:00:00 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:00:00 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:00:15 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:00:15 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:00:44 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:00:44 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:01:09 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:01:09 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:01:33 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:01:33 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:03:35 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:03:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:03:37 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:03:37 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:03:57 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:03:57 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:04:00 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:04:00 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:04:05 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:04:05 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:04:19 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:04:19 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:04:39 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:04:39 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:04:42 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:04:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:04:46 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:04:46 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:04:50 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:04:50 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:04:54 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:04:54 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:05:11 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:05:11 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:05:15 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:05:15 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:05:28 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:05:28 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:05:53 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:05:53 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:05:56 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:05:56 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:05:59 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:05:59 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:06:04 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:15: error: [dialect scala213] expected start of definition
+def zadTest(): Unit = {
+^
+2022.05.04 20:06:04 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:06:13 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:16: error: [dialect scala213] expected start of definition
+def zad02(): Unit = {
+^
+2022.05.04 20:06:13 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+maj 04, 2022 8:06:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 30 is not a valid line number, allowed [0..29]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+maj 04, 2022 8:06:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 30 is not a valid line number, allowed [0..29]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.05.04 20:09:11 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:09:11 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:09:35 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:09:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:09:53 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:09:53 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:10:04 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:10:04 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:10:07 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:10:07 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:10:35 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:10:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:12:09 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:12:09 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:12:14 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:12:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:12:25 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:12:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:12:29 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:30: error: [dialect scala213] illegal start of definition def
+def zad03(): Unit = {
+^
+2022.05.04 20:12:29 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:12:34 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:12:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:12:43 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:12:43 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:12:50 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:12:50 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:13:05 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:13:05 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:13:09 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:13:09 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:13:53 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:13:53 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:15:03 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:15:03 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:15:13 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:15:13 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:15:15 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:15:15 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:15:25 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:15:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:15:45 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:15:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:15:55 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:15:55 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:16:05 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:16:05 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:16:10 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:16:10 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:16:14 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:16:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:16:18 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:16:18 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:16:22 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:16:22 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:16:35 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:16:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:16:50 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:16:50 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:16:52 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:16:52 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:16:59 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:31: error: [dialect scala213] expected start of definition
+def zad03(): Unit = {
+^
+2022.05.04 20:16:59 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:17:07 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+maj 04, 2022 8:17:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 43 is not a valid line number, allowed [0..42]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.05.04 20:17:15 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:17:15 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:17:18 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:17:18 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:17:31 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:17:31 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+maj 04, 2022 8:17:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 43 is not a valid line number, allowed [0..42]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+maj 04, 2022 8:17:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 43 is not a valid line number, allowed [0..42]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.05.04 20:29:58 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:29:58 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:30:13 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:30:13 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:31:07 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:31:07 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:31:19 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:31:20 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:35:41 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:35:41 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:36:18 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:36:18 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:37:25 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:37:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:38:19 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:38:19 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:39:32 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:39:32 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:39:44 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:39:44 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:40:14 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:40:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:40:37 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:40:37 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:40:56 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:40:56 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:55:00 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:55:00 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 20:55:35 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala:5: error: [dialect scala213] expected start of definition
+def zad01(): Unit = {
+^
+2022.05.04 20:55:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaZadania\naukadokolokwium\src\main\scala\Main.scala
+2022.05.04 22:08:46 INFO  shutting down Metals
+2022.05.05 10:41:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\Programowanie\ScalaZadania\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.05 10:41:21 INFO  logging to file C:\Users\Admin\Desktop\Programowanie\ScalaZadania\.metals\metals.log
