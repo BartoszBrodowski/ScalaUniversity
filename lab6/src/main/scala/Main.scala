@@ -17,3 +17,30 @@ def zad02(): Unit = {
 def pairPosNeg(list: List[Double]): (List[Double], List[Double]) = {
     list.filter(_ != 0).partition(_ < 0)
 }
+
+@main
+def zad03(): Unit = {
+  val seq = Seq(1,2,2,4)
+  println(isOrdered(seq)(_ <= _))
+}
+
+def isOrdered[A](seq: Seq[A])(leq:(A, A) => Boolean): Boolean = {
+    seq.sliding(2, 1).toList.foldLeft(true)((acc, element) => 
+      if (leq(element.head, element(1))) acc
+      else false
+    )
+}
+
+
+@main
+def zad04: Unit = {
+  val l = List(1, 1, 2, 4, 4, 4, 1, 3)
+  println(deStutter(l).reverse)
+}
+
+def deStutter[A](list: List[A]): List[A] = {
+    list.foldLeft(List(list.head): List[A])((acc, element) => 
+      if (element != acc.head) element :: acc
+      else acc
+    )
+}
