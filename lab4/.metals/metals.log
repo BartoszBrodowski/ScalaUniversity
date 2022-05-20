@@ -640,3 +640,17 @@ WARNING: Unmatched cancel notification for request id 7060
 2022.05.05 15:28:24 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab4\src\main\scala\Main.scala[0m
 2022.05.05 15:28:27 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab4\src\main\scala\Main.scala[0m
 2022.05.05 15:28:29 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab4\src\main\scala\Main.scala[0m
+2022.05.05 16:40:44 INFO  shutting down Metals[0m
+2022.05.05 16:40:44 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(null)
+	at java.util.concurrent.FutureTask.run(null)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(null)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(null)
+	at java.lang.Thread.run(null)
+[0m

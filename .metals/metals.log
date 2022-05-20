@@ -2000,3 +2000,390 @@ def zad01: Unit = {
 2022.05.10 20:35:34 INFO  no build target found for C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab5\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
 2022.05.10 20:35:35 INFO  time: code lens generation in 3.08s
 2022.05.10 20:35:55 INFO  shutting down Metals
+2022.05.20 19:47:12 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.20 19:47:15 INFO  logging to file C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\metals.log
+2022.05.20 19:47:15 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaUniversity' for client Visual Studio Code 1.67.1.
+2022.05.20 19:47:15 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(8)), jdkHome: C:\Program Files\Java\jre1.8.0_321, javac exists: false)
+2022.05.20 19:47:16 INFO  time: initialize in 1.61s
+2022.05.20 19:47:17 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.20 19:47:18 WARN  Build server is not auto-connectable.
+2022.05.20 19:47:18 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaUniversity'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.20 19:47:19 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab7\src\main\scala\Main.scala
+2022.05.20 19:47:36 INFO  no build target found for C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab7\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.20 19:47:48 INFO  time: code lens generation in 27s
+2022.05.20 19:51:37 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+Exception in thread "pool-5-thread-1" java.lang.Error: dotty.tools.dotc.core.TypeError: Toplevel definition helloStr is defined in
+  C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab7\src\main\scala\Main.scala
+and also in
+  C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+One of these files should be removed from the classpath.
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: dotty.tools.dotc.core.TypeError: Toplevel definition helloStr is defined in
+  C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab7\src\main\scala\Main.scala
+and also in
+  C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+One of these files should be removed from the classpath.
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.dropStale$1(SymDenotations.scala:2431)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.recur$5(SymDenotations.scala:2395)
+	at dotty.tools.dotc.core.SymDenotations$PackageClassDenotation.computeMembersNamed(SymDenotations.scala:2451)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.membersNamed(SymDenotations.scala:2010)
+	at dotty.tools.dotc.core.SymDenotations$ClassDenotation.findMember(SymDenotations.scala:2061)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:686)
+	at dotty.tools.dotc.core.Types$Type.goThis$1(Types.scala:810)
+	at dotty.tools.dotc.core.Types$Type.go$1(Types.scala:703)
+	at dotty.tools.dotc.core.Types$Type.findMember(Types.scala:878)
+	at dotty.tools.dotc.core.Types$Type.memberBasedOnFlags(Types.scala:669)
+	at dotty.tools.dotc.core.Types$Type.member(Types.scala:653)
+	at dotty.tools.dotc.core.Types$Type.allMembers$$anonfun$1(Types.scala:1019)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:15)
+	at scala.runtime.function.JProcedure2.apply(JProcedure2.java:10)
+	at dotty.tools.dotc.core.Types$Type.memberDenots$$anonfun$1(Types.scala:924)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.BitmapIndexedSetNode.foreach(HashSet.scala:937)
+	at scala.collection.immutable.HashSet.foreach(HashSet.scala:944)
+	at dotty.tools.dotc.core.Types$Type.memberDenots(Types.scala:924)
+	at dotty.tools.dotc.core.Types$Type.allMembers(Types.scala:1019)
+	at scala.meta.internal.pc.IndexedContext$.accesibleMembers$1(IndexedContext.scala:133)
+	at scala.meta.internal.pc.IndexedContext$.scala$meta$internal$pc$IndexedContext$$$extractNames(IndexedContext.scala:188)
+	at scala.meta.internal.pc.IndexedContext$LazyWrapper.<init>(IndexedContext.scala:83)
+	at scala.meta.internal.pc.IndexedContext$.apply(IndexedContext.scala:71)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:55)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:102)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	... 3 more
+2022.05.20 19:51:43 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:51:46 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:51:47 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:52:01 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:52:03 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:56:22 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:56:23 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:56:56 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:57:01 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:57:04 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:57:09 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:57:20 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:57:21 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:57:23 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:57:27 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:57:28 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:57:36 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:57:40 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 19:57:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:02:59 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:03:03 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:03:06 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:03:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:03:36 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:03:47 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+maj 20, 2022 8:03:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 11 is not a valid line number, allowed [0..9]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 15 more
+
+2022.05.20 20:03:52 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:03:54 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:03:56 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:04:01 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:05 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:06 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:08 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:13 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:15 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:16 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:18 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:20 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:24 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:26 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:30 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:33 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:35 INFO  time: code lens generation in 2.25s
+2022.05.20 20:06:38 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:40 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:46 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:47 INFO  time: code lens generation in 1.37s
+2022.05.20 20:06:48 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:50 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:06:52 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:07:09 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:07:13 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:07:15 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:07:18 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:08:48 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:09:04 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:09:19 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:09:23 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:09:26 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:09:32 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:09:38 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:09:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:09:51 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:09:55 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:10:00 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:10:10 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:10:18 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:10:27 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:10:29 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:10:33 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:10:43 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+maj 20, 2022 8:10:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1008
+2022.05.20 20:10:46 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:10:49 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:10:51 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:11:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:11:17 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:11:27 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:11:28 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:11:39 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:11:43 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:11:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:11:47 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+maj 20, 2022 8:11:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1151
+2022.05.20 20:12:00 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:12:02 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:12:03 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:12:05 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:12:12 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:12:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:12:16 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:12:18 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:12:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:12:26 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:12:58 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:13:04 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:13:15 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:13:19 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:13:23 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:13:24 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:14:09 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:14:16 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:14:19 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:21:01 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:21:02 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:21:08 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:21:09 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:21:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:21:22 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:21:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:32:36 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:32:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:32:46 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:32:50 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:32:56 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:32:57 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:33:02 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:33:06 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:33:12 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:33:18 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:33:24 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:33:28 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:39:30 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:39:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:39:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:39:49 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:39:53 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:03 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:06 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:08 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:09 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:11 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:18 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:47 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:49 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:40:52 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:41:00 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:41:21 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:41:36 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:41:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:41:48 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:41:50 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:41:57 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:42:01 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:42:03 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:42:21 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:42:21 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:42:29 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:47:13 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:47:24 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:47:26 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:47:26 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:55:20 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:55:21 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:55:24 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:55:31 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:55:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 20:55:47 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:00:23 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:00:28 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:01:32 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:01:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:01:39 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:01:58 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:02:02 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:02:04 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:02:07 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:02:11 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:02:13 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:02:44 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:05:15 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:05:19 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:05:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:05:30 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:05:54 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:06:01 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:06:04 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:06:07 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:06:15 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:06:27 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:06:43 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:06:50 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:06:52 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:06:54 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:06:57 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:07:13 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:07:17 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:07:19 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:07:21 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:07:36 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:07:37 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:08:04 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:08:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:08:47 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:08:54 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:09:22 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:09:26 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:09:27 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:09:31 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:09:36 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:09:37 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:11:54 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:14:11 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:14:17 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:14:20 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:14:41 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:14:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:14:48 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:01 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:10 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:12 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:13 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:24 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:29 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:40 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:44 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:47 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:51 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:56 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:15:59 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:05 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:11 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:29 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:32 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:36 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:38 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:44 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:48 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:50 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:51 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:16:59 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:17:02 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:17:05 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:17:05 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:17:11 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:17:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:17:18 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:17:32 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:17:34 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:18:49 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:18:51 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:18:54 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:20 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:27 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:33 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:34 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:39 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:46 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:48 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:51 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:53 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:55 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:57 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:19:58 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:20:03 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:20:08 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:20:14 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:20:24 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:20:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:20:48 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:21:00 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:21:07 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:21:07 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:21:23 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:21:29 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:21:33 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:21:35 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:21:36 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:21:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:21:46 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:21:48 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:22:06 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:22:08 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:22:12 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:22:13 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:24:27 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:24:28 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:28:43 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:28:51 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
+2022.05.20 21:29:00 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab8\src\main\scala\Main.scala
