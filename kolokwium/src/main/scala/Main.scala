@@ -18,22 +18,59 @@
     Nie używaj zmiennych ani „pętli” (while, for bez yield, foreach).
 */
 @main
-def zad01: Unit = {
+def zadanieNowe: Unit = {
   println(countResults(List(1,2,3), List(4,5,4,6))(_+_))
-}
-
-def countResults[A,B,C](l1: List[A], l2: List[B])(f: (A, B) => C): Any = {
-  countResultsHelper(l1, l2, List())(f).groupBy(x => x).map(x => (x._1, x._2.length)).toSet
-}
-
-def countResultsHelper[A,B,C](l1: List[A], l2: List[B], acc: List[C])(f: (A, B) => C): List[C] = {
-  (l1, l2) match {
-    case (Nil, l2) => acc
-    case (l1, Nil) => acc
-    case (h1::t1, h2::t2) => countResultsHelper(t1, t2, f(h1, h2) :: acc)(f)
+  def countResults[A,B,C](l1: List[A], l2: List[B])(f: (A, B) => C): Set[(C, Int)] = {
+    countResultsHelper(l1, l2, List())(f).groupBy(x => x).map(element => (element._1, element._2.length)).toSet
+  }
+  def countResultsHelper[A,B,C](l1: List[A], l2: List[B], acc: List[C])(f: (A, B) => C): List[C] = {
+      (l1, l2) match {
+        case (Nil, Nil) => acc
+        case (Nil, l2) => acc
+        case (l1, Nil) => acc
+        case (head1::tail1, head2::tail2) => countResultsHelper(tail1, tail2, f(head1, head2) :: acc)(f)
+      }
   }
 }
 
-def main(args: Array[String]): Unit = {
-        //...
+// @main
+// def zad01: Unit = {
+//   println(countResults(List(1,2,3), List(4,5,4,6))(_+_))
+// }
+
+// def countResults[A,B,C](l1: List[A], l2: List[B])(f: (A, B) => C): Any = {
+//   countResultsHelper(l1, l2, List())(f).groupBy(x => x).map(x => (x._1, x._2.length)).toSet
+// }
+
+// def countResultsHelper[A,B,C](l1: List[A], l2: List[B], acc: List[C])(f: (A, B) => C): List[C] = {
+//   (l1, l2) match {
+//     case (Nil, l2) => acc
+//     case (l1, Nil) => acc
+//     case (h1::t1, h2::t2) => countResultsHelper(t1, t2, f(h1, h2) :: acc)(f)
+//   }
+// }
+
+// def main(args: Array[String]): Unit = {
+//         //...
+// }
+
+
+@main
+def zad02: Unit = {
+  val lista02 = List(1,2,3,4,3,3,1)
+  println(pairwiseTest(lista02)(_ == _))
+  def pairwiseTest[A](l: List[A])(pred: (A, A) => Boolean):Boolean = {
+    pairwiseTestHelper(l, 0, l.length-1)(pred)    
+  }
+  def pairwiseTestHelper[A](l: List[A], accFront: Int, accBack: Int)(pred: (A, A) => Boolean): Boolean  = {
+    l match {
+      case Nil => true
+      case l => 
+        if (pred(l(accFront), l(accBack)) == true) {
+          if (accFront < accBack) pairwiseTestHelper(l, accFront + 1, accBack - 1)(pred)
+          else true
+        }
+        else false
+    }
+  }
 }
