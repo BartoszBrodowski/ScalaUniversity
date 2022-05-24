@@ -3522,3 +3522,373 @@ WARNING: Unmatched cancel notification for request id 235
 2022.05.22 19:01:00 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
 2022.05.22 19:01:07 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
 2022.05.22 19:01:31 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 08:43:34 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.24 08:43:35 INFO  logging to file C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\metals.log
+2022.05.24 08:43:35 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaUniversity' for client Visual Studio Code 1.67.2.
+2022.05.24 08:43:36 INFO  time: initialize in 1.65s
+2022.05.24 08:43:41 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.24 08:43:41 WARN  Build server is not auto-connectable.
+2022.05.24 08:43:41 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaUniversity'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.24 08:43:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab6\src\main\scala\Main.scala
+2022.05.24 08:43:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 08:43:44 INFO  no build target found for C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab6\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.24 08:43:46 INFO  time: code lens generation in 4.41s
+2022.05.24 08:43:46 INFO  time: code lens generation in 4.35s
+2022.05.24 08:43:46 INFO  time: code lens generation in 4.35s
+maj 24, 2022 8:43:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 129 is not a valid line number, allowed [0..127]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 16 more
+
+maj 24, 2022 8:43:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 128 is not a valid line number, allowed [0..127]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 16 more
+
+maj 24, 2022 8:44:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 132 is not a valid line number, allowed [0..127]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 16 more
+
+maj 24, 2022 8:44:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 131 is not a valid line number, allowed [0..127]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:179)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:76)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:75)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:64)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:63)
+	at scala.collection.immutable.List.collect(List.scala:275)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:63)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1639)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1638)
+	... 16 more
+
+2022.05.24 08:44:08 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala:21: error: [dialect scala213] expected start of definition
+def zadanieNowe: Unit = {
+^
+2022.05.24 08:44:08 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 08:44:49 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala:21: error: [dialect scala213] expected start of definition
+def zadanieNowe: Unit = {
+^
+2022.05.24 08:44:49 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 08:45:00 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala:21: error: [dialect scala213] expected start of definition
+def zadanieNowe: Unit = {
+^
+2022.05.24 08:45:00 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 08:45:08 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala:21: error: [dialect scala213] expected start of definition
+def zadanieNowe: Unit = {
+^
+2022.05.24 08:45:08 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 08:45:17 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala:21: error: [dialect scala213] expected start of definition
+def zadanieNowe: Unit = {
+^
+2022.05.24 08:45:17 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 08:45:19 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala:21: error: [dialect scala213] expected start of definition
+def zadanieNowe: Unit = {
+^
+2022.05.24 08:45:19 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 08:45:22 INFO  shutting down Metals
+2022.05.24 08:55:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.24 08:55:21 INFO  logging to file C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\metals.log
+2022.05.24 08:55:21 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaUniversity' for client Visual Studio Code 1.67.2.
+2022.05.24 08:55:22 INFO  time: initialize in 1.69s
+2022.05.24 08:55:23 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.24 08:55:23 WARN  Build server is not auto-connectable.
+2022.05.24 08:55:23 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaUniversity'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.24 08:55:24 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab6\src\main\scala\Main.scala
+2022.05.24 08:55:26 INFO  no build target found for C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\lab6\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.24 08:55:27 INFO  time: code lens generation in 3.2s
+2022.05.24 08:55:28 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 08:55:44 WARN  no build target for: C:\Users\Admin\Downloads\zad5(1).scala
+2022.05.24 09:10:17 INFO  shutting down Metals
+2022.05.24 11:54:40 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.24 11:54:41 INFO  logging to file C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\metals.log
+2022.05.24 11:54:41 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaUniversity' for client Visual Studio Code 1.67.2.
+2022.05.24 11:54:42 INFO  time: initialize in 1.62s
+2022.05.24 11:54:42 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.24 11:54:42 WARN  Build server is not auto-connectable.
+2022.05.24 11:54:42 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaUniversity'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.24 11:54:44 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 11:54:46 INFO  no build target found for C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.24 11:54:48 INFO  time: code lens generation in 4.28s
+2022.05.24 11:56:28 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 11:56:28 INFO  shutting down Metals
+2022.05.24 11:56:29 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.24 20:13:53 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.24 20:13:54 INFO  logging to file C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\metals.log
+2022.05.24 20:13:54 INFO  Started: Metals version 0.11.5 in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaUniversity' for client Visual Studio Code 1.67.2.
+2022.05.24 20:13:56 INFO  time: initialize in 1.81s
+2022.05.24 20:14:00 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.24 20:14:00 WARN  Build server is not auto-connectable.
+2022.05.24 20:14:00 WARN  no build tool detected in workspace 'C:\Users\Admin\Desktop\Programowanie\ScalaUniversity'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.05.24 20:14:01 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala
+2022.05.24 20:14:04 INFO  no build target found for C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\kolokwium\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.24 20:14:06 INFO  time: code lens generation in 4.51s
+2022.05.24 20:14:38 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:17:32 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:17:32 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:17:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:17:45 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:17:55 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:17:55 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:18:16 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:18:16 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:18:28 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:18:28 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:18:42 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:18:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:19:05 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:19:05 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:20:52 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:20:52 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:21:26 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:21:26 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:21:29 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:21:29 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:21:32 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:21:32 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+maj 24, 2022 8:21:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 865
+2022.05.24 20:21:58 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:21:58 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:23:58 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:23:58 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:24:09 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:24:09 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:24:25 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:24:25 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:25:11 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:25:11 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:25:12 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:25:12 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:25:51 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:25:51 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:26:41 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:26:41 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:26:43 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:26:43 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:27:02 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:27:02 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:27:21 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:27:21 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:27:42 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:27:42 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:28:55 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:28:55 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:29:11 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:29:11 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:29:16 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:29:17 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:29:52 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:29:52 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:29:59 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:29:59 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:30:09 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:30:09 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:30:32 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:30:32 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:30:48 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:30:48 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:30:57 ERROR scalafmt: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala:2: error: [dialect scala213] expected start of definition
+def p01: Unit = {
+^
+2022.05.24 20:30:57 WARN  no build target for: C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\99scalaproblems\src\main\scala\Main.scala
+2022.05.24 20:32:53 INFO  shutting down Metals
+2022.05.24 20:37:32 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\lsp.trace.json or C:\Users\Admin\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.24 20:37:33 INFO  logging to file C:\Users\Admin\Desktop\Programowanie\ScalaUniversity\.metals\metals.log
