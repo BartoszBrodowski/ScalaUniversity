@@ -12,8 +12,8 @@ def p07: Unit = {
   val listaP07 = List(List(1, 1), 2, List(3, List(5, 8)))
   def flattenNestedList(lista: List[Any]): List[Any] = {
     lista flatMap({
-    case ms: List[_] => flattenNestedList(ms)
-    case e => List(e)
+    case notElement: List[Any] => flattenNestedList(notElement)
+    case el => List(el)
     }) 
   }
   println(flattenNestedList(listaP07))
@@ -76,6 +76,7 @@ def P16: Unit = {
     if (accNum == lista.length) accList
     else {
       lista match {
+        case Nil => List()
         case head::tail => 
           if (accNum % n == n - 1) dropEveryNthElement(lista, n, accNum + 1, accList)
           else dropEveryNthElement(lista, n, accNum + 1, accList :+ lista(accNum))
@@ -88,29 +89,29 @@ def P16: Unit = {
   // }
 }
 
-@main
-def LeetCode1: Unit = {
-  def validParentheses(s: String, accS: String, accList: List[Char]): Unit = {
-    s.flatMap({
-      case (el == "{") => accList :+ "}"
-      case (el == "[") => accList :+ "]"
-      case (el == "(") => accList :+ ")"
-      case (el == "}") => {
-        if (accList.head.toString == "{") accList.drop(1)
-        else false
-      }
-      case (el == "]") => {
-        if (accList.head.toString == "[") accList.drop(1)
-        else false
-      }
-      case (el == ")") => {
-        if (accList.head.toString == "(") accList.drop(1)
-        else false
-      }
-    })
-  }
-  println(validParentheses("{}"))
-}
+// @main
+// def LeetCode1: Unit = {
+//   def validParentheses(s: String, accS: String, accList: List[Char]): Unit = {
+//     s.flatMap({
+//       case (el == "{") => accList :+ "}"
+//       case (el == "[") => accList :+ "]"
+//       case (el == "(") => accList :+ ")"
+//       case (el == "}") => {
+//         if (accList.head.toString == "{") accList.drop(1)
+//         else false
+//       }
+//       case (el == "]") => {
+//         if (accList.head.toString == "[") accList.drop(1)
+//         else false
+//       }
+//       case (el == ")") => {
+//         if (accList.head.toString == "(") accList.drop(1)
+//         else false
+//       }
+//     })
+//   }
+//   println(validParentheses("{}"))
+// }
   //   s.foldLeft(List[Char]())((acc, curr) => {
   //     if (curr == "(") acc :+ "("
   //     else if (curr == "{") acc :+ "{"
@@ -131,3 +132,23 @@ def LeetCode1: Unit = {
   //     else false
   //   })
   // }
+
+
+@main
+def p13: Unit = {
+  val listaP13 = List("a", "a", "a", "a", "b", "c", "c", "a", "a", "d", "e", "e", "e", "e");
+  def runLength[A](list: List[A]): List[(Int, A)] = {
+    runLengthHelper(list, List(), 1)
+  }
+  def runLengthHelper[A](list: List[A], listAcc: List[(Int, A)], counter: Int): List[(Int, A)] = {
+    list match {
+      case Nil => listAcc.reverse
+      case head::Nil => runLengthHelper(Nil, (counter, head) :: listAcc, counter)
+      case head1::(head2::tail) => {
+        if (head1 != head2) runLengthHelper((head2::tail).toList, (counter, head1)::listAcc, 1)
+        else runLengthHelper((head2::tail).toList, listAcc, counter + 1)
+      }
+    }
+  }
+  println(runLength(listaP13))
+}
