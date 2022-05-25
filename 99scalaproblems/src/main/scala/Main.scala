@@ -36,6 +36,15 @@ def p08: Unit = {
 }
 
 @main
+def p14: Unit = {
+  val listaP14 = List("a", "b", "c", "c", "d")
+  def duplicate[A](lista: List[A]): Any = {
+    lista flatMap {(el => List(el, el))}
+  }
+  println(duplicate(listaP14))
+}
+
+@main
 def p15: Unit = {
   val listP15 = List("a", "b", "c", "c", "d")
   def duplicateN[A](ls: List[A], n: Int): List[A] = {
@@ -50,4 +59,31 @@ def p15: Unit = {
     }
   }
   println(duplicateN(listP15, 3))
+}
+@main
+def testP15: Unit = {
+  val listTestP15 = List("a", "b", "c", "c", "d")
+  def testDuplciate[A](lista: List[A], n: Int): List[A] = {
+    lista.flatMap(el => List.fill(n)(el))
+  }
+  println(testDuplciate(listTestP15, 3))
+}
+
+@main
+def P16: Unit = {
+  val listaP16 = List("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k")
+  def dropEveryNthElement[A](lista: List[A], n: Int, accNum: Int = 0, accList: List[A] = List()): List[A] = {
+    if (accNum == lista.length) accList
+    else {
+      lista match {
+        case head::tail => 
+          if (accNum % n == n - 1) dropEveryNthElement(lista, n, accNum + 1, accList)
+          else dropEveryNthElement(lista, n, accNum + 1, accList :+ lista(accNum))
+      }
+    }
+  }
+  println(dropEveryNthElement(listaP16, 4))
+  // def dropEveryHelper[A](lista: List[A], n: Int, listAcc: List[A]): List[A] = {
+    
+  // }
 }
