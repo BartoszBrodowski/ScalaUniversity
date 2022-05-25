@@ -87,3 +87,47 @@ def P16: Unit = {
     
   // }
 }
+
+@main
+def LeetCode1: Unit = {
+  def validParentheses(s: String, accS: String, accList: List[Char]): Unit = {
+    s.flatMap({
+      case (el == "{") => accList :+ "}"
+      case (el == "[") => accList :+ "]"
+      case (el == "(") => accList :+ ")"
+      case (el == "}") => {
+        if (accList.head.toString == "{") accList.drop(1)
+        else false
+      }
+      case (el == "]") => {
+        if (accList.head.toString == "[") accList.drop(1)
+        else false
+      }
+      case (el == ")") => {
+        if (accList.head.toString == "(") accList.drop(1)
+        else false
+      }
+    })
+  }
+  println(validParentheses("{}"))
+}
+  //   s.foldLeft(List[Char]())((acc, curr) => {
+  //     if (curr == "(") acc :+ "("
+  //     else if (curr == "{") acc :+ "{"
+  //     else if (curr == "[") acc :+ "["
+  //     else if (curr == ")") {
+  //       if (acc.head != "(") false
+  //       else acc.drop(1)
+  //     }
+  //     else if (curr == "}") {
+  //       if (acc.head != "{") false
+  //       else acc.drop(1)
+  //     }
+  //     else if (curr == "]") {
+  //       if (acc.head != "[") false
+  //       else acc.drop(1)
+  //     }
+  //     else if (curr == Nil) 
+  //     else false
+  //   })
+  // }
